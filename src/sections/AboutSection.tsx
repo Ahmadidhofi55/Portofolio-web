@@ -50,7 +50,7 @@ const AboutSection: React.FC = () => {
               <div className="grid grid-cols-2 gap-4 text-sm">
                 <div>
                   <h4 className="text-white font-bold mb-2">Location</h4>
-                  <p>Indonesian,Pekalongan</p>
+                  <p>Indonesian</p>
                 </div>
                 <div>
                   <h4 className="text-white font-bold mb-2">Experience</h4>

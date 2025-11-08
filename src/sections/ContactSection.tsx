@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionHeading from '../components/SectionHeading';
 import ContactForm from '../components/ContactForm';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Mail,  MapPin, Clock } from 'lucide-react';
 
 const ContactSection: React.FC = () => {
   return (
@@ -30,15 +30,6 @@ const ContactSection: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex items-start">
-                <div className="mr-4 bg-[#1c2331] p-3 rounded-lg">
-                  <Phone className="text-purple-500" size={24} />
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold text-white">Phone</h4>
-                  <p className="text-gray-400">0885402137562</p>
-                </div>
-              </div>
 
               <div className="flex items-start">
                 <div className="mr-4 bg-[#1c2331] p-3 rounded-lg">
@@ -46,7 +37,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white">Location</h4>
-                  <p className="text-gray-400">Indonesia, Pekalongan</p>
+                  <p className="text-gray-400">Indonesia</p>
                 </div>
               </div>
 

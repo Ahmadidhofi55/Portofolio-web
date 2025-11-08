@@ -11,6 +11,14 @@ const projects = [
     liveUrl: 'https://example.com',
     githubUrl: 'https://github.com/Ahmadidhofi55/Warehouse-Management-System',
   },
+  {
+     title: 'Search Film Favorit App',
+    description: 'Web Search for Film Favorit fecth form Imdb Api',
+    image: 'https://image2url.com/images/1762596856000-c3af2580-a84a-4edc-9422-938b28623b03.png',
+    tags: ['React', 'Fetch Api Imdb', 'Javascript'],
+    liveUrl: 'https://ornot-film-34u2jkh3l-ahmadidhofi4-gmailcom.vercel.app/',
+    githubUrl: 'https://github.com/Ahmadidhofi55/ORNOT-FILM',
+  },
 
 ];
 
