@@ -4,12 +4,12 @@ import ProjectCard from '../components/ProjectCard';
 
 const projects = [
   {
-    title: '',
-    description: '',
-    image: 'https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    tags: ['React', 'Firebase', 'Tailwind CSS', 'Context API'],
+    title: 'Warehouse Managemenet System',
+    description: 'A comprehensive Warehouse Management System (WMS) built using the Laravel framework. This application is designed to manage the entire inventory lifecycle, from receiving goods (Inbound) and dispatching goods (Outbound), to real-time stock tracking, and precise product location lookup within the warehouse.',
+    image: 'https://image2url.com/images/1762594214738-35ec2829-66e4-41e2-afed-380e4f3f5571.png',
+    tags: ['Laravel', 'PHP', 'Javascript','Boostrapt'],
     liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/Ahmadidhofi55/Warehouse-Management-System',
   },
 
 ];

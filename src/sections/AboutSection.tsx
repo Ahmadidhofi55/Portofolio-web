@@ -1,7 +1,6 @@
 import React from 'react';
 import SectionHeading from '../components/SectionHeading';
-import Button from '../components/Button';
-import { FileText } from 'lucide-react';
+
 
 const AboutSection: React.FC = () => {
   return (
@@ -17,7 +16,7 @@ const AboutSection: React.FC = () => {
             <div className="relative w-full max-w-md mx-auto">
               <div className="w-full aspect-square rounded-lg overflow-hidden border-4 border-[#1c2331] shadow-xl">
                 <img
-                  src="https://placehold.co/994x1500.png"
+                  src="/profile.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -66,14 +65,6 @@ const AboutSection: React.FC = () => {
                   <p>English, Indonesia</p>
                 </div>
               </div>
-
-              <Button
-                variant="primary"
-                icon={<FileText size={18} />}
-                onClick={() => window.open('/resume.pdf', '_blank')}
-              >
-                Download Resume
-              </Button>
             </div>
           </div>
         </div>
