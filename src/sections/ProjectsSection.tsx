@@ -12,12 +12,20 @@ const projects = [
     githubUrl: 'https://github.com/Ahmadidhofi55/Warehouse-Management-System',
   },
   {
-     title: 'Search Film Favorit App',
+    title: 'Search Film Favorit App',
     description: 'Web Search for Film Favorit fecth form Imdb Api',
     image: 'https://image2url.com/images/1762596856000-c3af2580-a84a-4edc-9422-938b28623b03.png',
     tags: ['React', 'Fetch Api Imdb', 'Javascript'],
-    liveUrl: 'https://ornot-film-34u2jkh3l-ahmadidhofi4-gmailcom.vercel.app/',
+    liveUrl: 'https://ornot-film-34u2jkh3l-ahmadidhofi4-gmailcom.vercel.app/ ',
     githubUrl: 'https://github.com/Ahmadidhofi55/ORNOT-FILM',
+  },
+   {
+    title: 'Ornotnet Landing Page',
+    description: 'Landing Page Website Ornotnet Internet Service Provider Built with next js , react , and tailwindcss',
+    image: 'https://image2url.com/images/1763228142195-493f029b-d73b-4833-a9de-ea4e82c6c8d9.png',
+    tags: ['React', 'Next Js', 'Tailwindcss'],
+    liveUrl: 'https://ornot-net-internet-service-provider.vercel.app/ ',
+    githubUrl: 'https://github.com/Ahmadidhofi55/OrnotNet-Internet-Service-Provider',
   },
 
 ];
