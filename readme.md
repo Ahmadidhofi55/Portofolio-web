@@ -4,7 +4,7 @@
 
 ## 📝 Description
 
-Crafted with React and TypeScript, this portfolio website offers a dynamic and engaging platform to showcase my skills and projects. The clean design prioritizes user experience, making it easy for visitors to navigate and learn about my work. While specific features are not listed, the foundation in React and TypeScript ensures a responsive, maintainable, and modern web experience, optimized for showcasing a range of projects and professional information.
+Crafted with React and TypeScript, this portfolio website offers a clean and modern showcase of my skills and projects. Designed for optimal user experience, the site features a responsive layout that adapts seamlessly to various screen sizes, ensuring accessibility across all devices. Explore my work through interactive project displays and learn more about my expertise. This website isn't just a portfolio; it's a dynamic representation of my capabilities and a testament to my commitment to excellence in web development.
 
 ## 🛠️ Tech Stack
 
@@ -15,6 +15,7 @@ Crafted with React and TypeScript, this portfolio website offers a dynamic and e
 ## 📦 Key Dependencies
 
 ```
+aos: ^2.3.4
 emailjs-com: ^3.2.0
 lucide-react: ^0.344.0
 react: ^18.3.1
@@ -67,9 +68,11 @@ sweetalert2: ^11.22.1
 │   ├── ms-icon-310x310.png
 │   ├── ms-icon-70x70.png
 │   └── profile.jpg
+├── readme.md
 ├── src
 │   ├── App.tsx
 │   ├── components
+│   │   ├── AosProvider.tsx
 │   │   ├── Button.tsx
 │   │   ├── Card.tsx
 │   │   ├── ContactForm.tsx
