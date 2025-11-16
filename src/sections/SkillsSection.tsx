@@ -19,7 +19,7 @@ const SkillsSection: React.FC = () => {
           subtitle="Technologies and tools I work with" 
         />
         
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div data-aos="zoom-in" className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
           {skills.map((skill, index) => (
             <div key={index} className="relative group">
               <SkillCard 
@@ -31,7 +31,7 @@ const SkillsSection: React.FC = () => {
           ))}
         </div>
         
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div data-aos="zoom-in" className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-[#1c2331] p-6 rounded-lg border border-[#2a3446]">
             <h3 className="text-xl font-bold mb-4 text-white">Frontend Technologies</h3>
             <div className="flex flex-wrap gap-3">

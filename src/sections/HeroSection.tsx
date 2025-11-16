@@ -29,21 +29,21 @@ const HeroSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <div className="animate-fade-in-up">
-              <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight mb-2">
+              <h1 data-aos="zoom-in" className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight mb-2">
                 Hello, I'm{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
+                <span data-aos="zomm-in" className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
                   Ahmad Idhofi
                 </span>
               </h1>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 text-white">
+              <h2 data-aos="zoom-in" className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 text-white">
                 Freelence Web Developer
               </h2>
-              <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-xl leading-relaxed">
+              <p data-aos="zoom-in" className="text-lg md:text-xl text-gray-400 mb-8 max-w-xl leading-relaxed">
                I’m a freelance Web Developer specializing in creating interactive, responsive, and professional websites to help individuals and businesses stand out online.
               </p>
 
               <div className="flex flex-wrap gap-4 mb-8">
-                <Button onClick={scrollToAbout} icon={<ArrowDownCircle size={18} />}>
+                <Button  onClick={scrollToAbout} icon={<ArrowDownCircle size={18} />}>
                   Explore My Work
                 </Button>
                 <Button variant="outline" onClick={() => window.open('https://github.com/Ahmadidhofi55', '_blank')} icon={<Github size={18} />}>

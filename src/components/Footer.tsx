@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
           
           <div className="flex flex-col items-end">
             <div className="flex space-x-4 mb-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors hover:scale-110 transform">
+              <a href="https://github.com/Ahmadidhofi55" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors hover:scale-110 transform">
                 <Github size={20} />
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors hover:scale-110 transform">

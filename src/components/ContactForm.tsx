@@ -103,10 +103,10 @@ const ContactForm: React.FC = () => {
       ) : (
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
+            <label data-aos="zoom-in" htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
               Name
             </label>
-            <input
+            <input data-aos="zoom-in"
               type="text"
               id="name"
               name="name"
@@ -121,10 +121,10 @@ const ContactForm: React.FC = () => {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
+            <label data-aos="zoom-in" htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
               Email
             </label>
-            <input
+            <input data-aos="zoom-in"
               type="email"
               id="email"
               name="email"
@@ -139,10 +139,10 @@ const ContactForm: React.FC = () => {
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
+            <label data-aos="zoom-in" htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
               Message
             </label>
-            <textarea
+            <textarea data-aos="zoom-in"
               id="message"
               name="message"
               rows={5}
@@ -156,7 +156,7 @@ const ContactForm: React.FC = () => {
             {errors.message && <p className="mt-1 text-sm text-red-500">{errors.message}</p>}
           </div>
 
-          <Button
+          <Button data-aos="zoom-in"
             type="submit"
             variant="primary"
             size="lg"

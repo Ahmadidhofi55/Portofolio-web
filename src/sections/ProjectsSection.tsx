@@ -33,7 +33,7 @@ const projects = [
 const ProjectsSection: React.FC = () => {
   return (
     <section id="projects" className="py-20 bg-[#0a0e14]">
-      <div className="container mx-auto px-4">
+      <div data-aos="zoom-in" className="container mx-auto px-4">
         <SectionHeading
           title="My Projects"
           subtitle="A showcase of my recent work and personal projects"
